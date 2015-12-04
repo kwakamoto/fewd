@@ -1,0 +1,19 @@
+body {
+	background-color: #FFE;
+	border: 10px solid black;
+	padding: 10px;
+	margin: 0;
+}
+
+#cookielink {
+	color: #900;
+}
+
+#nutrition {
+	color: #877;
+}
+
+img {
+	border: 3px solid #000000;
+
+}
