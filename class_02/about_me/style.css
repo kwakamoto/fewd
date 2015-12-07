@@ -1,0 +1,23 @@
+h1 {
+	color: #99e3b6;
+	font-size: 50px;
+}
+
+h2 {
+	color: rgba(54,34,65,.5);
+	font-size: 24px;
+}
+
+body {
+	background-color: #39c5ac;
+	font-family: "Source Sans Pro", "Roboto", Serif;
+}
+
+ul {
+	color: rgba(250,0,0,.3);
+}
+
+hr {
+	height: 5px;
+
+}
