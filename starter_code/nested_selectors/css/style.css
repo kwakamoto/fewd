@@ -1,0 +1,36 @@
+body {
+	/*can use property background or background-color*/
+	background-color: #666699;
+	color: white;
+}
+
+blockquote {
+	background-color: #330066;
+	/*adds more spacing WITH color so it stands out more*/
+	padding: 10px 20px;
+	font-style: italic;
+}
+
+/* any of the EM inside a BLOCKQUOTE should be FONTSTYLE _____ */
+blockquote em {
+	font-style: normal;
+}
+
+/* when you use commas, = FOR blockquotes AND em - use the properties
+blockquote, em {
+
+}
+*/
+
+.red-box {
+	background-color: red;
+	padding: 10px;
+}
+
+.intense {
+	background: #666633;
+}
+
+.underline {
+	text-decoration: underline;
+}

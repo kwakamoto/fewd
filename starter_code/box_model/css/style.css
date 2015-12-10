@@ -1,0 +1,33 @@
+h1 {
+	padding: 10px;
+	margin: 15px;
+	background: #28e7b2;
+	border: 10px dotted black;
+}
+
+h2 {
+	padding: 25px;
+	margin: 15px;
+	margin-left: 50px;
+
+	background: #ffe4e1;
+	border: 20px solid red; 
+}
+
+code {
+	padding: 3px;
+	border: 3px solid black;
+}
+
+em {
+	padding: 3px;
+	background: #FFFF00;
+	/* since chrome by default has em tags as italicized this is so that it changes it back to normal*/
+	font-style: normal;
+
+}
+
+li {
+	margin-bottom: 12px;
+}
+
