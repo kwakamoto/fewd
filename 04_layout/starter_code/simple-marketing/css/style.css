@@ -1,0 +1,66 @@
+
+/* to create the simple marketing layout */
+
+.blue {
+
+	background: #44accf;
+}
+
+.header {
+	height: 9%;
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+.section {
+	width: 100%;
+}
+
+.pink { 
+	background: #ee3e64;
+	width: 49.5%;
+	margin-right: 1%;
+	height: 49%;
+	float: left;
+	 }
+
+.green { 
+	background: #b7d84b; 
+	height:49%;
+	width: 49.5%;
+	float: left;
+
+	}
+
+.purple { 
+	background: #520577;
+	height: 19%;
+	width: %;
+	float: left;
+
+}
+
+.orange { 
+	background: #E2A741; 
+	height:19%;
+	width: 100%;
+	margin-top: 1%;
+	float: left;
+}
+
+.teal {
+	height:19%;
+
+}
+
+.red {
+
+}
+
+.float {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
