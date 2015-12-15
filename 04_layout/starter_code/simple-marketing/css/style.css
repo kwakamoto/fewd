@@ -35,26 +35,37 @@
 .purple { 
 	background: #520577;
 	height: 19%;
-	width: %;
+	width: 32.6%;
+	margin-top: 1%;
 	float: left;
+	margin-right: 1%;
 
 }
 
 .orange { 
 	background: #E2A741; 
 	height:19%;
-	width: 100%;
+	width: 32.6%;
 	margin-top: 1%;
+	margin-right: 1%;
 	float: left;
 }
 
 .teal {
 	height:19%;
-
+	background: #008080;
+	height: 19%;
+	margin-top: 1%;
+	width: 32.6%;
+	float: left;
 }
 
 .red {
-
+	background: #FF0000;
+	height: 19%;
+	width: 100%;
+	margin-top: 1%;
+	float: left;
 }
 
 .float {
