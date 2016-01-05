@@ -31,16 +31,6 @@ Developer @GA in NYC
   clear: both;
 }
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -67,11 +57,9 @@ body {
 
 header {
   background: #033048;
-  padding: 20px 0;
+/*  padding: 20px 0;*/
   overflow: auto;
   margin-bottom: 50px;
-
-
 }
 
 header nav {
@@ -89,10 +77,11 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-header.logo {
+header .logo {
   font-weight: 800;
   font-size: 48px;
   color: #FFF;
+  float: left;
 }
 
 header nav a {
