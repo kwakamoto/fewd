@@ -1,0 +1,188 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #606161;
+     background: #f0efef;
+     font-size: 24px;
+     font-weight: 200;
+     line-height: 1.4;
+     font-family: "Open Sans", serif;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  background: #033048;
+  margin-top: 0;
+  padding: 15px 0;
+  overflow: auto;
+  margin-bottom: 50px;
+
+}
+
+#cta {
+  background: #f9e42e;
+}
+
+footer {
+  background: #121212;
+  height: 200px;
+
+}
+
+article {
+  width:700px;
+  margin-right: 20px;
+}
+
+aside {
+  width: 240px;
+}
+
+.float-left {
+  float: left;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+
+}
+
+header .logo {
+  color: #fff;
+  float: left;
+}
+
+header nav {
+  float: right;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav a {
+
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+.blog_title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+#cta a {
+  text-align: center;
+  font-weight: 600;
+  font-color: #FFF;
+}
+
+.button {
+  display: block;
+  width: 280px;
+  padding: 12px 0;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.readmore_link {
+  font-size: 24px;
+  font-weight: 600;
+  float: right;
+
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+aside a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 72px;
+  font-weight: 700;
+  float: left;
+  line-height: 1.0;
+}
+
+
+
+
+
+
+
