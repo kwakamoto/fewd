@@ -1,0 +1,48 @@
+div, section, footer, #main {
+	border: 1px solid #000;
+}
+
+header {
+	width: 100%;
+	overflow: auto;
+}
+
+header div {
+	float: left;
+	height: 50px;
+	width: 200px;
+	margin: 10px 20px;
+}
+
+#main {
+	height: 300px;
+	margin: 0 5%;
+	margin-bottom: 50px;
+}
+
+#secondary {
+	overflow: auto;
+
+}
+
+#secondary {
+	height: 200px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+#secondary section {
+	height: 150px;
+	margin: 10px;
+	float: left;
+}
+
+footer {
+	width: 1280px;
+	overflow: auto;
+}
+
+
+
+
+

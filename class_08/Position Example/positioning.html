@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+	  <title>Positioning</title>
+		<link rel="stylesheet" href="css/normalize.css">
+
+		<style type="text/css">
+			div#road {
+				width: 960px;
+				margin: 20px auto;
+				height: 5500px;
+				border: 2px solid #000;
+				background-color: black;
+				margin-top: 300px;
+			}
+
+			#blue {
+				/*position: relative;
+				top: 50px;
+				left: 100px;*/
+				border: 1px dotted green;
+
+				margin: 5px;
+				/*position:fixed;*/
+				top: 42%;
+				left: 42%;
+				z-index: 1;
+
+			}
+
+			#red {
+				/*position: relative;*/
+				right: 300px;
+				margin-bottom: 20px;
+				border: 1px dotted #fff;
+				/*position: fixed;*/
+				top: 40%;
+				left: 42%;
+				z-index: 0;
+			}
+
+			header {
+				background-color: #efefef;
+				margin: 0;
+				padding: 20px;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+
+			aside {
+				width: 200px;
+				height: 500px;
+				background-color: yellow;
+				position: fixed;
+				top: 300px;
+				
+
+			}
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<h1>Welcome to Auto Trader</h1>
+
+		</header>
+
+		<aside>
+			Sidebar
+		</aside>
+
+		<div id="road">
+			<div id="red">
+				<img src="car.png">
+			</div>
+
+			<div id="blue">
+				<img src="car-2.png">
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
